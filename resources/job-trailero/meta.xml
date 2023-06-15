@@ -1,0 +1,15 @@
+<meta>
+    <script src="routes.lua" />
+    <script src="trailero.lua" />
+    <script src="trailero_c.lua" type="client" size="4106" />
+    
+    <script src="help_c.lua" type="client" size="1496" />
+    <export function="introduce" />
+    
+    <include resource="vehicles" />
+    <settings>
+        <!-- (Civilian) Vehicles you can use for the bus job -->
+        <setting name="#vehicles" value="[[&apos;Roadtrain&apos;]]" />
+    </settings>
+    <min_mta_version server="1.3.4-0.00000" client="1.5.2-9.07903"></min_mta_version>
+</meta>

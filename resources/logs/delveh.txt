@@ -1,0 +1,62 @@
+[2022-08-05 08:15:28] Vehículo ID 6, borrado por Upendo_Scheepers.
+
+[2022-08-05 08:24:33] Vehículo ID 3, borrado por Ryan_Lewis.
+
+[2022-08-05 08:31:10] Vehículo ID 4, borrado por Upendo_Scheepers.
+
+[2022-08-05 08:31:11] Vehículo ID 5, borrado por Upendo_Scheepers.
+
+[2022-08-05 08:31:16] Vehículo ID 7, borrado por Upendo_Scheepers.
+
+[2022-08-05 08:31:18] Vehículo ID 8, borrado por Upendo_Scheepers.
+
+[2022-08-05 08:31:19] Vehículo ID 9, borrado por Ryan_Lewis.
+
+[2022-08-05 08:31:21] Vehículo ID 10, borrado por Upendo_Scheepers.
+
+[2022-08-05 08:31:23] Vehículo ID 11, borrado por Upendo_Scheepers.
+
+[2022-08-06 18:48:18] Vehículo ID 16, borrado por Upendo_Scheepers.
+
+[2022-08-06 18:54:20] Vehículo ID 17, borrado por Upendo_Scheepers.
+
+[2022-08-06 18:54:23] Vehículo ID 18, borrado por Upendo_Scheepers.
+
+[2022-08-06 19:10:52] Vehículo ID 19, borrado por Upendo_Scheepers.
+
+[2022-08-09 17:15:29] Vehículo ID 12, borrado por Staff_UNBREAKING.
+
+[2022-08-22 22:49:15] Vehículo ID 1, borrado por Thryson_Lyon.
+
+[2022-08-22 22:49:21] Vehículo ID 3, borrado por Thryson_Lyon.
+
+[2022-08-22 22:49:38] Vehículo ID 9, borrado por Thryson_Lyon.
+
+[2022-08-24 12:13:20] Vehículo ID 28, borrado por Staff_UNBREAKING.
+
+[2022-08-24 21:37:26] Vehículo ID 74, borrado por Pedro_Santana.
+
+[2022-08-24 21:47:57] Vehículo ID 78, borrado por Pedro_Santana.
+
+[2022-09-07 17:06:15] Vehículo ID 98, borrado por Pedro_Santana.
+
+[2022-09-11 18:57:25] Vehículo ID 116, borrado por Pedro_Santana.
+
+[2022-09-11 18:57:28] Vehículo ID 117, borrado por Pedro_Santana.
+
+[2022-09-13 23:27:15] Vehículo ID 137, borrado por Pedro_Santana.
+
+[2022-09-13 23:32:55] Vehículo ID 138, borrado por Pedro_Santana.
+
+[2022-09-13 23:37:41] Vehículo ID 139, borrado por Pedro_Santana.
+
+[2022-09-13 23:47:29] Vehículo ID 140, borrado por Pedro_Santana.
+
+[2022-09-15 21:16:31] Vehículo ID 144, borrado por Pedro_Santana.
+
+[2022-09-15 22:42:17] Vehículo ID 149, borrado por Pedro_Santana.
+
+[2022-09-15 22:42:23] Vehículo ID 146, borrado por Pedro_Santana.
+
+[2022-09-15 22:42:28] Vehículo ID 145, borrado por Pedro_Santana.
+

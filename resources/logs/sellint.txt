@@ -1,0 +1,5 @@
+[2022-08-10 05:49:49] Interior ID 29 vendido (Staff_UNBREAKING)
+[2022-09-03 18:39:50] Interior ID 12 vendido (Pedro_Santana)
+[2022-09-07 23:28:44] Interior ID 12 vendido (Pedro_Santana)
+[2022-09-12 19:58:57] Interior ID 195 vendido (Pedro_Santana)
+[2022-09-12 19:59:23] Interior ID 196 vendido (Pedro_Santana)

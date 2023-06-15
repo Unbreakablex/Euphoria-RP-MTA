@@ -1,0 +1,35 @@
+[2022-08-07 00:02:21] Upendo Scheepers ha dado un arma 30 con 89 a Joan Montana
+[2022-08-07 00:04:25] Upendo Scheepers ha dado un arma 30 con 163 a Joan Montana
+[2022-08-10 18:44:25] Staff UNBREAKING ha dado un arma 28 con 130 a Joan Montana
+[2022-08-10 18:52:00] Staff UNBREAKING ha dado un arma 30 con 26 a Jorge Pineda
+[2022-08-10 18:55:11] Staff UNBREAKING ha dado un arma 28 con 14 a Jorge Pineda
+[2022-08-10 18:55:41] Staff UNBREAKING ha dado un arma 28 con 130 a Jorge Pineda
+[2022-08-10 19:23:11] Joan Montana ha dado un arma 24 con 1 a Jorge Pineda
+[2022-08-16 20:50:10] Ryan Lewis ha dado un arma 31 con 31 a Cassius Ray
+[2022-08-22 03:22:10] Ryan Lewis ha dado un arma 29 con 4 a Ander Blackwell
+[2022-08-22 03:22:48] Ryan Lewis ha dado un arma 31 con 8 a Ander Blackwell
+[2022-08-22 03:25:09] Ander Blackwell ha dado un arma 31 con 31 a Ryan Lewis
+[2022-08-22 03:40:58] Ryan Lewis ha dado un arma 25 con 1 a Thryson Lyon
+[2022-08-22 03:41:55] Ryan Lewis ha dado un arma 25 con 1 a Thryson Lyon
+[2022-08-22 03:43:42] Ryan Lewis ha dado un arma 24 con 1 a Thryson Lyon
+[2022-08-22 21:59:59] Ander Blackwell ha dado un arma 3 con 1 a Waylon Baxter
+[2022-08-22 22:38:08] Thryson Lyon ha dado un arma 30 con 141 a Cassius Ray
+[2022-08-23 13:29:40] Staff UNBREAKING ha dado un arma 30 con 200 a Daniel Lorenzo
+[2022-08-23 13:29:50] Staff UNBREAKING ha dado un arma 23 con 90 a Daniel Lorenzo
+[2022-08-23 13:30:01] Staff UNBREAKING ha dado un arma 26 con 80 a Daniel Lorenzo
+[2022-08-23 13:56:31] Staff UNBREAKING ha dado un arma 30 con 47 a Ayana De Los Simpson
+[2022-08-24 20:22:51] Staff UNBREAKING ha dado un arma 30 con 200 a Jamison Fawkes
+[2022-08-24 20:22:57] Staff UNBREAKING ha dado un arma 23 con 90 a Jamison Fawkes
+[2022-08-24 20:23:04] Staff UNBREAKING ha dado un arma 28 con 130 a Jamison Fawkes
+[2022-08-27 14:44:38] Pedro Santana ha dado un arma 23 con 90 a Jamison Fawkes
+[2022-08-27 14:44:44] Pedro Santana ha dado un arma 28 con 130 a Jamison Fawkes
+[2022-08-27 14:44:50] Pedro Santana ha dado un arma 30 con 200 a Jamison Fawkes
+[2022-08-30 22:49:52] Ander Blackwell ha dado un arma 33 con 47 a Fernandito Villalona
+[2022-08-30 22:55:49] Ander Blackwell ha dado un arma 28 con 130 a Fernandito Villalona
+[2022-08-30 22:56:32] Ander Blackwell ha dado un arma 22 con 6 a Fernandito Villalona
+[2022-08-30 22:57:21] Ander Blackwell ha dado un arma 30 con 165 a Fernandito Villalona
+[2022-08-30 23:01:08] Pedro Santana ha dado un arma 33 con 50 a Fernandito Villalona
+[2022-08-30 23:01:25] Pedro Santana ha dado un arma 33 con 50 a Fernandito Villalona
+[2022-08-31 00:36:00] Pedro Santana ha dado un arma 22 con 100 a Fernandito Villalona
+[2022-08-31 00:41:54] Pedro Santana ha dado un arma 33 con 42 a Fernandito Villalona
+[2022-09-08 00:16:14] Pedro Santana ha dado un arma 23 con 89 a IAA
