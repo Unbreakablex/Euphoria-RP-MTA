@@ -1,0 +1,7 @@
+txd = engineLoadTXD("deshuase.txd", 1189 )
+engineImportTXD(txd, 1189)
+dff = engineLoadDFF("deshuase.dff", 1189 )
+engineReplaceModel(dff, 1189)
+col = engineLoadCOL ( "deshuase.col" )
+engineReplaceCOL ( col, 1189 )
+engineSetModelLODDistance(1189, 5000) 
