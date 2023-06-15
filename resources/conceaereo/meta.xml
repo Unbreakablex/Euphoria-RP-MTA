@@ -1,0 +1,17 @@
+<meta>
+    <info author="Vinter" name="Concesionario" version="1" type="script" />
+    <oop>true</oop>
+
+    <script src="client.lua" type="client" size="6739" />
+    <script src="server.lua" type="server" />
+    
+    <min_mta_version server="1.3.4-0.00000" client="1.5.2-9.07903"></min_mta_version>
+
+    <file src='files/font.otf'/>
+
+
+    <file src='files/eye.png'/>
+    <file src='files/buy.png'/>
+    <file src='files/close.png'/>
+
+</meta>
