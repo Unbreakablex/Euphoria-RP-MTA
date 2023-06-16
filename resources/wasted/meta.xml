@@ -1,0 +1,10 @@
+<meta>
+	<info name ="Wasted" description="Wasted" author ="Sam@ke, bonnie and IgorRodriguesCo" version="1.0.2" type="script" />
+
+	<file src="shaders/old_film.fx" type="client"/>
+	<file src="starja.png" />
+	<file type="client" src="images/vignette1.dds"/>
+	<script type="client" src="wasted.lua"/>
+	<file src="wasted.mp3"/>
+	<file src="suspenso.mp3"/>
+</meta>
