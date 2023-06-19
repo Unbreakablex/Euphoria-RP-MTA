@@ -1,0 +1,25 @@
+<meta>
+    <info author="Jefferson" version="1.1" type="script" name="Sistema auxiliar de vehículos" description=" " />
+    
+    <!--<script src="renovaciones.lua" type="server" />-->
+    
+    <script src="precios.lua" type="server" />
+    <script src="precios_c.lua" type="client" size="5606" />
+    
+    <export function="getDatos" />
+    <export function="getDatos" type="client" />
+    
+    <export function="isModelVIP" />
+    <export function="isModelVIP" type="client" />
+    
+    <export function="getPrecioFromModel" />
+    <export function="getPrecioFromModel" type="client" />
+    
+    <export function="getClaseFromModel" />
+    <export function="getClaseFromModel" type="client" />
+    
+    <export function="getCosteRenovacionFromModel" />
+    <export function="getCosteRenovacionFromModel" type="client" />
+
+    <min_mta_version server="1.3.4-0.00000" client="1.5.2-9.07903"></min_mta_version>
+</meta>
