@@ -1,0 +1,10 @@
+<map edf:definitions="editor_main">
+    <object id="object (lxr_motel_doorsim) (1)" breakable="true" interior="15" collisions="true" alpha="255" model="2987" doublesided="false" scale="1" dimension="-1" posX="2239.4399" posY="-1170.7489" posZ="1030" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (lxr_motel_doorsim) (2)" breakable="true" interior="15" collisions="true" alpha="255" model="2987" doublesided="false" scale="1" dimension="-1" posX="2239.4399" posY="-1159.75" posZ="1030" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (lxr_motel_doorsim) (3)" breakable="true" interior="15" collisions="true" alpha="255" model="2987" doublesided="false" scale="1" dimension="-1" posX="2243.001" posY="-1159.7479" posZ="1030" rotX="0" rotY="0" rotZ="270"></object>
+    <object id="object (lxr_motel_doorsim) (4)" breakable="true" interior="15" collisions="true" alpha="255" model="2987" doublesided="false" scale="1" dimension="-1" posX="2191.3999" posY="-1157.02" posZ="1030" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (lxr_motel_doorsim) (5)" breakable="true" interior="15" collisions="true" alpha="255" model="2987" doublesided="false" scale="1" dimension="-1" posX="2194.99" posY="-1157.01" posZ="1030" rotX="0" rotY="0" rotZ="270"></object>
+    <object id="object (lxr_motel_doorsim) (6)" breakable="true" interior="15" collisions="true" alpha="255" model="2987" doublesided="false" scale="1" dimension="-1" posX="2194.9902" posY="-1173.0098" posZ="1030" rotX="0" rotY="0" rotZ="270"></object>
+    <object id="object (lxr_motel_doorsim) (7)" breakable="true" interior="15" collisions="true" alpha="255" model="2987" doublesided="false" scale="1" dimension="-1" posX="2225.5701" posY="-1186.9" posZ="1030" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (lxr_motel_doorsim) (8)" breakable="true" interior="15" collisions="true" alpha="255" model="2987" doublesided="false" scale="1" dimension="-1" posX="2209.5791" posY="-1190.45" posZ="1030" rotX="0" rotY="0" rotZ="180"></object>
+</map>

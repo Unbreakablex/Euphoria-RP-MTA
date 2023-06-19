@@ -1,0 +1,6 @@
+<map edf:definitions="editor_main">
+    <object id="object (ugcarpark_SFe) (1)" breakable="true" interior="6" alpha="255" dimension="-1" model="10010" scale="1" doublesided="false" collisions="true" posX="-1304.8" posY="-569.5" posZ="315.7" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (gnhtelgrnd_lvs) (1)" breakable="true" interior="6" alpha="255" dimension="-1" model="8661" scale="1" doublesided="false" collisions="true" posX="-1338.4" posY="-536" posZ="316.8" rotX="87.938" rotY="104.038" rotZ="-104.029"></object>
+    <object id="object (lawnspraydoor1) (1)" breakable="true" interior="6" alpha="255" dimension="-1" model="5856" scale="1" doublesided="false" collisions="true" posX="-1341.1" posY="-536" posZ="318" rotX="0" rotY="0" rotZ="89.75"></object>
+    <object id="object (lawnspraydoor1) (2)" breakable="true" interior="6" alpha="255" dimension="-1" model="5856" scale="1" doublesided="false" collisions="true" posX="-1335.2" posY="-536" posZ="318.1" rotX="0" rotY="0" rotZ="89.747"></object>
+</map>

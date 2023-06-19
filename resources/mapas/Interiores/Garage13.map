@@ -1,0 +1,5 @@
+<map edf:definitions="editor_main">
+    <object id="object (century03_LAw2) (1)" breakable="true" interior="3" alpha="255" dimension="-1" model="6387" scale="1" doublesided="false" collisions="true" posX="-1320.6" posY="-568.59998" posZ="217" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (spdr_sfw) (1)" breakable="true" interior="3" alpha="255" dimension="-1" model="9625" scale="1" doublesided="false" collisions="true" posX="-1317" posY="-535.70001" posZ="216.3" rotX="0" rotY="0" rotZ="90.25"></object>
+    <object id="object (spdr_sfw) (2)" breakable="true" interior="3" alpha="255" dimension="-1" model="9625" scale="1" doublesided="false" collisions="true" posX="-1316.75" posY="-601.5" posZ="216.3" rotX="0" rotY="0" rotZ="90.247"></object>
+</map>

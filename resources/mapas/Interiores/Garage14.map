@@ -1,0 +1,5 @@
+<map edf:definitions="editor_main">
+    <object id="object (carimp_SFE) (1)" breakable="true" interior="4" alpha="255" dimension="-1" model="10051" scale="1" doublesided="false" collisions="true" posX="-1297.3" posY="-565.29999" posZ="113.4" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (carimp2_LAn) (1)" breakable="true" interior="4" alpha="255" dimension="-1" model="4232" scale="1" doublesided="false" collisions="true" posX="-1325.515" posY="-565.70001" posZ="119.165" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (door_savhangr1) (2)" breakable="true" interior="4" alpha="255" dimension="-1" model="16773" scale="1" doublesided="false" collisions="true" posX="-1362.8" posY="-547.29999" posZ="122.7" rotX="-0.1" rotY="-0.995" rotZ="101.749"></object>
+</map>

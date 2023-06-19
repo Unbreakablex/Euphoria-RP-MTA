@@ -1,0 +1,7 @@
+<map edf:definitions="editor_main">
+    <object id="object (door_savhangr1) (2)" breakable="true" interior="0" alpha="255" dimension="-1" model="16773" scale="1" doublesided="false" collisions="true" posX="2491.1001" posY="2375.8" posZ="6.4" rotX="0" rotY="0" rotZ="-92.5"></object>
+    <object id="object (ws_ref_bollard) (1)" breakable="true" interior="0" alpha="255" dimension="-1" model="1319" scale="1" doublesided="false" collisions="true" posX="2497.6001" posY="2360.8" posZ="3.8" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (ws_ref_bollard) (2)" breakable="true" interior="0" alpha="255" dimension="-1" model="1319" scale="1" doublesided="false" collisions="true" posX="2497.6001" posY="2358.3999" posZ="3.8" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (ws_ref_bollard) (3)" breakable="true" interior="0" alpha="255" dimension="-1" model="1319" scale="1" doublesided="false" collisions="true" posX="2497.1001" posY="2351.8999" posZ="3.8" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (ws_ref_bollard) (4)" breakable="true" interior="0" alpha="255" dimension="-1" model="1319" scale="1" doublesided="false" collisions="true" posX="2497.3" posY="2354.5" posZ="3.8" rotX="0" rotY="0" rotZ="0"></object>
+</map>
