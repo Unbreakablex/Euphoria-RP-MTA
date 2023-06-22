@@ -1,4 +1,4 @@
-﻿<acl>
+<acl>
     <group name="Everyone">
         <acl name="Default"></acl>
         <object name="user.*"></object>
@@ -29,7 +29,6 @@
         <object name="resource.compilador"></object>
         <object name="resource.asistencia"></object>
         <object name="user.GrasoR"></object>
-        <object name="user.IAA"></object>
     </group>
     <group name="GameOperator">
         <acl name="GameOperator"></acl>
@@ -44,7 +43,6 @@
     </group>
     <group name="VIP">
         <acl name="VIP"></acl>
-        <object name="user.UNBREAKING"></object>
     </group>
     <group name="Helper">
         <acl name="Helper"></acl>
@@ -94,6 +92,7 @@
         <object name="resource.acpanel"></object>
         <object name="user.Console"></object>
         <object name="user.UNBREAKING"></object>
+        <object name="user.IAA"></object>
     </group>
     <group name="Encubierto">
         <object name="user.Console"></object>
@@ -134,6 +133,10 @@
     <group name="autoGroup_mapmanager">
         <acl name="autoACL_mapmanager"></acl>
         <object name="resource.mapmanager"></object>
+    </group>
+    <group name="autoGroup_newmodels">
+        <acl name="autoACL_newmodels"></acl>
+        <object name="resource.newmodels"></object>
     </group>
     <acl name="Admin">
         <right name="command.setinterioroutsideveh" access="true"></right>
@@ -1683,5 +1686,9 @@
         <right name="function.restartResource" access="false" who="" pending="true" date=""></right>
         <right name="function.stopResource" access="false" who="" pending="true" date=""></right>
         <right name="function.refreshResources" access="false" who="" pending="true" date=""></right>
+    </acl>
+    <acl name="autoACL_newmodels">
+        <right name="function.kickPlayer" access="false" who="" pending="true" date=""></right>
+        <right name="function.fetchRemote" access="false" who="" pending="true" date=""></right>
     </acl>
 </acl>
