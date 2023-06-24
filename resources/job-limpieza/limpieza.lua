@@ -16,9 +16,9 @@ You should have received a copy of the GNU General Public License
 along with this program. If not, see <http://www.gnu.org/licenses/>.
 ]]
 
-local vehicles = { "Sweeper" } -- load the civilian vehicles that'll automatically trigger the delivery mission if being entered
-local max_earnings = 10
-local delay = 3
+local vehicles = { "Mower" } -- load the civilian vehicles that'll automatically trigger the delivery mission if being entered
+local max_earnings = 15
+local delay = 3.5
 
 -- put it in a for us better format
 local vehicles2 = { }
@@ -53,7 +53,7 @@ local function advanceRoute( player, earnings )
 				end
 				
 				if p[ player ].route[ p[ player ].checkpoint ].hint then
-					triggerClientEvent( player, "gui:hint", player, "Tu trabajo: Limpieza", p[ player ].route[ p[ player ].checkpoint ].hint )
+					triggerClientEvent( player, "gui:hint", player, "Tu trabajo: Jardinero", p[ player ].route[ p[ player ].checkpoint ].hint )
 				end
 			end
 			
@@ -207,9 +207,9 @@ local function createOurPedLimpieza( )
 	if pedL then
 		destroyElement( pedL )
 	end
-	pedL = createPed( 16, 1350.4, 352.35, 20.08, 0, false )
+	pedL = createPed( 16, 1964.1035, -1243.9726, 20.0526, 0, false )
 	setElementData( pedL, "npcname", "Ricardo Edmundo" )
-	setElementRotation(pedL,0,0,64)
+	setElementRotation(pedL,0,0,104)
 	setTimer(setElementFrozen, 2000, 1, pedL, true)
 end
 addEventHandler( "onPedWasted", resourceRoot, createOurPedLimpieza )
