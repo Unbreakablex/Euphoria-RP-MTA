@@ -965,6 +965,25 @@ windows.mecanico_color = {
 	{
 		type = "pane",
 		panes = {
+            {
+				image = "images/mecanico/-1.png",
+				title = "Guardar",
+				text = "Guardar el tunning actual. ATENCIÓN: si has instalado piezas, se te restarán e instalarán en el vehículo definitivamente.",
+				wordBreak = true,
+				onHover = function( cursor, pos )
+					dxDrawRectangle( pos[1], pos[2], pos[3] - pos[1], pos[4] - pos[2], tocolor( unpack( { 255, 75, 75, 50 } ) ) )
+				end,
+				onClick = function( key )
+					if key == 1 then
+						setElementData(localPlayer, "nocursor", nil)
+						triggerEvent("offCursor", localPlayer)
+						toggleAllControls(true)
+						setElementData(getPedOccupiedVehicle(localPlayer), "inTunningGUI", nil)
+						triggerServerEvent( "mecanico:savetunning", localPlayer, getPedOccupiedVehicle(localPlayer), pInstalada, pQuitada, nPiezas)
+						hide()
+					end
+				end,
+			},
 			{
 				image = "images/mecanico/-1.png",
 				title = "Atrás",
