@@ -17,7 +17,7 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
 ]]
 
 local vehicles = { "Reefer" } -- load the civilian vehicles that'll automatically trigger the delivery mission if being entered
-local max_earnings = 22
+local max_earnings = 25
 local delay = 5
 
 -- put it in a for us better format
@@ -207,7 +207,7 @@ local function createOurPedPescador( )
 	if pedP then
 		destroyElement( pedP )
 	end
-	pedP = createPed( 61, 2118.64, -92.9, 2.03, 308.37, true )
+	pedP = createPed( 61, 2945.419921875, -1521.7763671875, 1.7546873092651, 256, true )
 	setElementData( pedP, "npcname", "John Pescanova" )
 	setElementFrozen(pedP,true) 
 end
