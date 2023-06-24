@@ -76,7 +76,7 @@ local function show( )
 	
 	if position then
 		-- in lack of a more detailed close-location (aka we use the entrance), use large markers
-		marker = createMarker( position.x, position.y, position.z, "checkpoint", 3, position.stop and 0 or 255, 255, 0, 63 )
+		marker = createMarker( position.x, position.y, position.z, "cylinder", 3, position.stop and 0 or 255, 255, 0, 63 )
 		if marker then
 			blip = createBlipAttachedTo( marker, 0, 2, position.stop and 0 or 255, 255, 0, 255 )
 		end
@@ -131,7 +131,7 @@ addEventHandler( "onClientMarkerLeave", resourceRoot,
 		if matching and element == localPlayer then
 			wait = false
 			removeEventHandler( "onClientRender", root, drawWaitingText )
-			exports.gui:hint( "Tu trabajo: Limpieza", "No vayas tan rápido y limpia la mugre del suelo.", 3 )
+			exports.gui:hint( "Tu trabajo: Jardinero", "No vayas tan rápido y poda el cesped con cuidado", 3 )
 		end
 	end
 )
