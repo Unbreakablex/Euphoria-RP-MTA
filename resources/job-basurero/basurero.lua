@@ -17,7 +17,7 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
 ]]
 
 local vehicles = { "Trashmaster" } -- load the civilian vehicles that'll automatically trigger the delivery mission if being entered
-local max_earnings = 8
+local max_earnings = 20
 local delay = 4.5
 
 -- put it in a for us better format
@@ -207,9 +207,9 @@ local function createPedBasurero( )
 	if PedBasurero then
 		destroyElement( PedBasurero )
 	end
-	PedBasurero = createPed( 16, 1348.525390625, 347.89453125, 20.091892242432, 0, false )
+	PedBasurero = createPed( 16, 2202.21484375, -1968.9287109375, 13.584131240845, 0, false )
 	setElementData( PedBasurero, "npcname", "Tino Svenson" )
-	setElementRotation(PedBasurero,0,0,67)
+	setElementRotation(PedBasurero,0,0,87.26)
 	setTimer(setElementFrozen, 2000, 1, PedBasurero, true)
 end
 
