@@ -17,8 +17,8 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
 ]]
 
 local vehicles = { "Pizzaboy" } -- load the civilian vehicles that'll automatically trigger the delivery mission if being entered
-local max_earnings = 5
-local delay = 3
+local max_earnings = 18
+local delay = 3.5
 
 -- put it in a for us better format
 local vehicles2 = { }
@@ -207,7 +207,7 @@ local function createOurPedRepartidor( )
 	if pedR then
 		destroyElement( pedR )
 	end
-	pedR = createPed( 155, 1360.2, 248.42, 19.57, 55.8, false )
+	pedR = createPed( 155, 2099.4521484375, -1803.6103515625, 13.5546875, 88, false )
 	setElementData( pedR, "npcname", "Pedro Hidalgo" )
 	setTimer(setElementFrozen, 2000, 1, pedR, true)
 end
