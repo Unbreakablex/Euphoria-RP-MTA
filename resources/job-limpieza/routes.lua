@@ -19,17 +19,20 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
 routes =
 {
 	{
-	{ x = 1341.12, y = 354.72, z = 19.41, hint = "Sigue los puntos y deja limpio el pueblo" },
-	{ x = 1329.55, y = 367.92, z = 19.07, stop = true },
-	{ x = 1275.66, y = 352.95, z = 19.08, stop = true },
-	{ x = 1218.17, y = 346.72, z = 19.07, stop = true },
-	{ x = 1212.37, y = 278.76, z = 19.07, stop = true },
-	{ x = 1220.3, y = 198.19, z = 19.14, stop = true },
-	{ x = 1271.4, y = 195.28, z = 19.22, stop = true },
-	{ x = 1310.04, y = 234.58, z = 19.11, stop = true },
-	{ x = 1393.65, y = 223.39, z = 19.22, stop = true },
-	{ x = 1371.14, y = 294.4, z = 19.07, stop = true },
-	{ x = 1325.9, y = 317.32, z = 19.05, stop = true },
-	{ x = 1347.11, y = 350.67, z = 19.44, stop = true }
+    { x = 1963.41, y = -1237.11, z = 18.63, hint = "Sigue los puntos y poda el cesped del parque" },
+    { x = 1994.93, y = -1225.65, z = 19.38, stop = true },
+    { x = 2008.62, y = -1246.24, z = 22.09, stop = true },
+    { x = 2043.41, y = -1237.28, z = 22.09, stop = true },
+    { x = 2034.24, y = -1210.2, z = 21.4, stop = true },
+    { x = 2025.78, y = -1184.95, z = 20.57, stop = true },
+    { x = 2044.56, y = -1166.76, z = 22.02, stop = true },
+    { x = 2024.84, y = -1152.22, z = 22.55, stop = true },
+    { x = 1986.05, y = -1156.53, z = 19.98, stop = true },
+    { x = 1955.56, y = -1152.42, z = 20.41, stop = true },
+    { x = 1939.76, y = -1165.02, z = 20.14, stop = true },
+    { x = 1897.8, y = -1154.58, z = 23.3, stop = true },
+    { x = 1874.66, y = -1193.96, z = 21.27, stop = true },
+    { x = 1872.34, y = -1224.56, z = 16.15, stop = true },
+    { x = 1926.99, y = -1235.35, z = 16.76, stop = true }
 	}
 }
