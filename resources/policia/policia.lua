@@ -269,19 +269,19 @@ function arrestar (player, commandName, otherPlayer, tiempo, ...)
 	local other, name = exports.players:getFromName(player, otherPlayer)
 	if other and razon and tiempo and tonumber(tiempo) then
 		if exports.factions:isPlayerInFaction(player, 1) then
-			if (getElementDimension(player) ~= 3) or (getElementDimension(other) ~= 3) then outputChatBox("(( No puedes arrestar a alguien estando fuera de comisaria ))", player, 255, 0, 0) return end
+			if (getElementDimension(player) ~= 6) or (getElementDimension(other) ~= 6) then outputChatBox("(( No puedes arrestar a alguien estando fuera de la Prision. ))", player, 255, 0, 0) return end
 			for k, v in ipairs(getElementsByType("player")) do
 				if exports.factions:isPlayerInFaction(v, 1) then
 					outputChatBox(name.." ha sido arrestado.", v, 255, 0, 0)
 					outputChatBox("Tiempo: (("..tostring(tiempo).." minutos)) Razón:"..razon, v, 255, 0, 0)
 				end
 			end
-			if getElementDimension(other) == 3 then
-				setElementPosition(other, 227.44, 110.82, 999.02)
-				setElementInterior(other, 10)
-				setElementDimension(other, 1)
+			if getElementDimension(other) == 6 then
+				setElementPosition(other, 1769.6718, -1566.5390, -3.6852)
+				setElementInterior(other, 0)
+				setElementDimension(other, 0)
 			else
-				outputChatBox("¡Sólo puedes arrestar a alguien en comisaria!.", player, 255, 0, 0)
+				outputChatBox("¡Sólo puedes arrestar a alguien en prision!.", player, 255, 0, 0)
 				return
 			end
 			local nivel = exports.objetivos:getNivel(exports.players:getCharacterID(other))
@@ -465,7 +465,7 @@ local balasCargador =
 
 function getArmamento (player, cmd, wid)
 	if not exports.factions:isPlayerInFaction(player, 1) then outputChatBox("No eres policía.", player, 255, 0, 0) return end
-	if not getElementDimension(player) == 7 then outputChatBox("No estás en comisaria.", player, 255, 0, 0) return end
+	if not getElementDimension(player) == 596 then outputChatBox("No estás en comisaria.", player, 255, 0, 0) return end
 	local result = exports.sql:query_assoc_single( "SELECT factionRank FROM character_to_factions WHERE factionID = 1 AND characterID = " .. exports.players:getCharacterID(player))
 	local rango = result.factionRank
 	if not rango or not result or rango < 9 then outputChatBox("No tienes suficiente rango como para acceder a este comando.", player, 255, 0, 0) return end
@@ -480,7 +480,7 @@ addCommandHandler("armaspd", getArmamento)
 
 function getCargadores (player, cmd, wid)
 	if not exports.factions:isPlayerInFaction(player, 1) then outputChatBox("No eres policía.", player, 255, 0, 0) return end
-	if getElementDimension(player) ~= 7 then outputChatBox("No estás en comisaria.", player, 255, 0, 0) return end
+	if getElementDimension(player) ~= 596 then outputChatBox("No estás en comisaria.", player, 255, 0, 0) return end
 	local result = exports.sql:query_assoc_single( "SELECT factionRank FROM character_to_factions WHERE factionID = 1 AND characterID = " .. exports.players:getCharacterID(player))
 	local rango = result.factionRank
 	if not rango or not result or rango < 9 then outputChatBox("No tienes suficiente rango como para acceder a este comando.", player, 255, 0, 0) return end
@@ -521,7 +521,7 @@ addCommandHandler("utilespd", giveUtiles)
 
 function getMunicionPD (player)
 	if not exports.factions:isPlayerInFaction(player, 1) then outputChatBox("No eres policía.", player, 255, 0, 0) return end
-	if getElementDimension(player) ~= 7 then outputChatBox("No estás en comisaria.", player, 255, 0, 0) return end
+	if getElementDimension(player) ~= 596 then outputChatBox("No estás en comisaria.", player, 255, 0, 0) return end
 	local wid = 24
 	exports.items:give(player, 43, tostring(wid), "Cargador Arma PD["..getPlayerName(player):gsub("_", " ").."]", 7)
 	outputChatBox("Has adquirido un cargador para un arma "..tostring(wid)..".", player, 0, 255, 0)
@@ -535,10 +535,10 @@ function liberarJugador ( player, commandName, otherPlayer )
 	local charID = exports.players:getCharacterID(otro)
 	if hasObjectPermissionTo(player, 'command.modchat', false) or exports.factions:isPlayerInFaction(player, 1) then
 		if getElementData( otro, "ajail") and tonumber(getElementData( otro, "ajail")) > 0 then
-			if getElementDimension(otro) == 3 then
-				setElementPosition(otro, 2416.35, 49.95, 26.48)
-				setElementDimension(otro, 1)
-				setElementInterior(otro, 10)
+			if getElementDimension(otro) == 0 then
+				setElementPosition(otro, 1815.0791, -1576.5458, 13.5468)
+				setElementDimension(otro, 0)
+				setElementInterior(otro, 0)
 			end
 			if getElementData(player, "enc") then
 				outputChatBox('Alguien te ha sacado de la celda.', otro, 0, 255, 0)
@@ -559,7 +559,7 @@ addCommandHandler("liberar", liberarJugador)
 
 function getChaleco (player)
 	if not exports.factions:isPlayerInFaction(player, 1) then outputChatBox("No eres policía.", player, 255, 0, 0) return end
-	if getElementDimension(player) ~= 7 then outputChatBox("No estás en comisaria.", player, 255, 0, 0) return end
+	if getElementDimension(player) ~= 596 then outputChatBox("No estás en comisaria.", player, 255, 0, 0) return end
 	if getPedArmor(player) < 100 then
 		setPedArmor(player, 100)
 		outputChatBox("Se ha renovado tu chaleco. Usa /chaleco de nuevo para quitártelo.", player, 0, 255, 0)
