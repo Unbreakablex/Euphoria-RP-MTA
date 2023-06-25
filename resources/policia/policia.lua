@@ -279,7 +279,7 @@ function arrestar (player, commandName, otherPlayer, tiempo, ...)
 			if getElementDimension(other) == 6 then
 				setElementPosition(other, 1769.6718, -1566.5390, -3.6852)
 				setElementInterior(other, 0)
-				setElementDimension(other, 0)
+				setElementDimension(other, 6)
 			else
 				outputChatBox("¡Sólo puedes arrestar a alguien en prision!.", player, 255, 0, 0)
 				return
