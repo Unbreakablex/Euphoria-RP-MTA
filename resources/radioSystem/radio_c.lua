@@ -1,4 +1,5 @@
 local vRadio = {}
+local ir = {}
 local stations = {
 	{ link = "http://kissfm.kissfmradio.cires21.com/kissfm.mp3", name = "Kiss FM" },
 	{ link = "http://playerservices.streamtheworld.com/api/livestream-redirect/M80RADIO_SC", name = "M80 Radio" },
@@ -204,3 +205,18 @@ addEventHandler( "onClientPlayCustomIntRadio", root,
 		end
 	end
 )
+
+function reconnectRadio ()
+	if source then
+		local dimension = getElementDimension(source)
+		if not ir[dimension] then return end
+		if ir[dimension][1] then
+			detachElements(getLocalPlayer(), ir[dimension][1])
+			setElementDimension(ir[dimension][1], dimension)
+			attachElements(ir[dimension][1], getLocalPlayer())
+			setElementData(ir[dimension][1], "radioSystem", true)
+		end
+	end
+end
+addEvent("onReconnectRadioInterior", true)
+addEventHandler("onReconnectRadioInterior", getRootElement(), reconnectRadio)
