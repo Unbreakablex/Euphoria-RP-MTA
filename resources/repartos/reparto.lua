@@ -18,7 +18,7 @@ function solicitarReparto(player)
 				return
 			end
 		end
-		if (exports.factions:isPlayerInFaction(player, 7) and getDistanceBetweenPoints3D(1221.9556884766, 158.06875610352, 20.46875, x, y, z) > 5) then outputChatBox("(( Debes de estar en el Punto de Base para los Repartos ))", player, 255, 0, 0) return end
+		if (exports.factions:isPlayerInFaction(player, 7) and getDistanceBetweenPoints3D(2214.2880, -2678.4628, 13.5468, x, y, z) > 5) then outputChatBox("(( Debes de estar en el Punto de Base para los Repartos ))", player, 255, 0, 0) return end
 		local sql = exports.sql:query_assoc("SELECT * FROM interiors ORDER BY productos ASC")
 		for k, v in ipairs(sql) do
 			if v and v.interiorID and exports.interiors:isTienda(v.interiorID) == true and v.productos <= 500 and reparto == false and (v.interiorType == 0 or (v.interiorType == 2 and v.characterID > 0)) then
@@ -47,7 +47,7 @@ function repartoListo2 (vehicle)
 		local player = getVehicleController(vehicle)
 		if source == marker2T[player] then
 			if getElementData(player, "int.reparto") and getElementData(player, "int.reparto") > 0 then
-				exports.interiors:giveProductos(getElementData(player, "int.reparto"), 50)
+				exports.interiors:giveProductos(getElementData(player, "int.reparto"), 100)
 				removeElementData(player, "int.reparto")
 				removeEventHandler("onMarkerHit", marker2T[player], repartoListo2)
 				local idveh = getElementData(vehicle, "idveh")
