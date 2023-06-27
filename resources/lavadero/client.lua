@@ -1,5 +1,5 @@
 myShader = dxCreateShader( "texture.fx" )
-local limpiaVeh_1 = createMarker ( 1883.92, 385.1, 20.52, "cylinder", 4, 255, 0, 0, 0 )
+local limpiaVeh_1 = createMarker ( 1911.16, -1776.43, 13.38, "cylinder", 4, 255, 0, 0, 0 )
 local limpiaVeh_2 = createMarker ( 2454.15, -1461.26, 23.7, "cylinder", 4, 255, 0, 0, 0 )
 
 function limpiarCoche (hitPlayer, matchingDimension)
