@@ -1,4 +1,4 @@
-﻿--[[
+--[[
 Copyright (c) 2019 DownTown RolePlay
 
 This program is free software: you can redistribute it and/or modify
@@ -42,8 +42,8 @@ function ()
 				removeElementData(player, "ajail")
 				exports.sql:query_free( "UPDATE characters SET ajail = 0 WHERE characterID = " .. exports.players:getCharacterID(player) )
 				outputChatBox("Tu tiempo de prisión ha finalizado.", player, 0, 255, 0)
-				setElementPosition(player, 2408.85, 49.22, 26.48)
-				setElementRotation(player, 0, 0, 176.11)
+				setElementPosition(player, 1815.70703125, -1573.9716796875, 13.546875)
+				setElementRotation(player, 0, 0, 257)
 				setElementInterior(player, 0)
 				setElementDimension(player, 0)
 			end
