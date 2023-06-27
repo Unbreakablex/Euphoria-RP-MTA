@@ -1,6 +1,6 @@
---local screenW, screenH = guiGetScreenSize()
+local screenW, screenH = guiGetScreenSize()
 
---[[local mainFont = dxCreateFont("files/fonts/mainFont.ttf", 14, false, "antialiased")
+local mainFont = dxCreateFont("files/fonts/mainFont.ttf", 14, false, "antialiased")
 local mainFontHeight = dxGetFontHeight(1, mainFont)
 
 local iconSize = 32
@@ -1718,4 +1718,4 @@ function getColorFromDecimal(decimal)
 	local alpha = bitExtract(decimal, 24, 8)
 	
 	return red, green, blue, alpha
-end]]--
+end
