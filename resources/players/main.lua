@@ -31,8 +31,8 @@ local groups = {
 	{ groupName = "Developers", groupID = 1, aclGroup = "Desarrollador", displayName = "Desarrollador", nametagColor = { 167, 8, 8 }, priority = 1 },
 	{ groupName = "MTA Administrators", groupID = 2, aclGroup = "Administrador", displayName = "Administrador", nametagColor = { 40, 31, 189 }, priority = 2 },
 	{ groupName = "MTA Moderators", groupID = 17, aclGroup = "Moderador", displayName = "Moderador", nametagColor = { 247, 157, 47 }, priority = 4 },
-	{ groupName = "GameOperator", groupID = 3, aclGroup = "GameOperator", displayName = "GameOperator", nametagColor = { 16, 169, 11 }, priority = 3 },
-	{ groupName = "Helper", groupID = 12, aclGroup = "Helper", displayName = "Helper", nametagColor = { 214, 214, 0 }, priority = 4 },
+	{ groupName = "GameOperator", groupID = 3, aclGroup = "GameOperator", displayName = "GameOperator", nametagColor = { 88, 88, 88 }, priority = 3 },
+	{ groupName = "Helper", groupID = 12, aclGroup = "Helper", displayName = "Helper", nametagColor = { 16, 152, 248 }, priority = 4 },
 	{ groupName = "VIP", groupID = 14, aclGroup = "VIP", displayName = "VIP", nametagColor = { 255, 255, 255 }, priority = 5 },
 }
 
@@ -121,7 +121,7 @@ local function aclUpdate( player, saveAclIfChanged )
 									local serial = getPlayerSerial(player)
 									if serial ~= sql.regSerial and tostring(serial) ~= tostring(sql.regSerial2) then
 										outputChatBox("MODO DE EMERGENCIA: por seguridad sólo se puede acceder desde el PC que registró la cuenta.", player, 255, 0, 0)
-										outputChatBox("Sus datos (IP, Serial) serán grabados por seguridad. Su sesión ha sido cerrada. Contacte con Jefferson.", player, 255, 0, 0)
+										outputChatBox("Sus datos (IP, Serial) serán grabados por seguridad. Su sesión ha sido cerrada. Contacte con Exotic.", player, 255, 0, 0)
 										--outputChatBox("Puede usar /clogin [codigo] para permitir el login desde este PC temporalmente.", player, 0, 255, 0)
 										exports.logs:addLogMessage("cuentastaff", "Cuenta: " .. info.username .. " IP:" .. getPlayerIP(player) .. " Serial: " .. getPlayerSerial(player))
 										logOut(player)
@@ -339,13 +339,13 @@ local function showLoginScreen( player, screenX, screenY, token, ip )
 	toggleAllControls( player, false, true, false )
 	
 	
-	spawnPlayer( source, 2638.927734375, -23.5126953125, 82.537460327148, 198.10025024414, 0, 0, 1 )
+	spawnPlayer( source, 1090.828125, -1959.8076171875, 68.79109954834, 198.10025024414, 0, 0, 1 )
 	setElementFrozen( source, true )
 	setElementAlpha( source, 0 )
 	setCameraInterior( source, 0 )
 	setElementDimension( source , 0)
 
-	setCameraMatrix( source, 2638.927734375, -23.5126953125, 82.543014526367, 2546.4130859375, 14.1376953125, 77.696334838867, 0, 70)
+	setCameraMatrix( source, 1090.828125, -1959.8076171875, 68.79109954834, 2546.4130859375, 14.1376953125, 77.696334838867, 0, 70)
 	setPlayerNametagColor( source, 127, 127, 127 )
 	-- check for ip/serial bans
 	if exports.sql:query_assoc_single( "SELECT * FROM wcf1_user WHERE banned = 1 AND ( lastIP = '%s' OR lastSerial = '%s' )", getPlayerIP( player ), getPlayerSerial( player ) ) then
@@ -370,17 +370,6 @@ local function showLoginScreen( player, screenX, screenY, token, ip )
 	end
 	triggerClientEvent( player, getResourceName( resource ) .. ":spawnscreen", player )
 end
-
-addEventHandler( 'onClientResourceStart', resourceRoot,
-function( )
-	-------- Iglesia DTRP
-	local iglesiaboda = playSound3D( "https://audio.jukehost.co.uk/JIzzFv5Pm33u90zGXKR1GeQJEtY2Mfmk.mp3", 2616.83203125, -24.3623046875, 38.856693267822, true )
-	setElementDimension( iglesiaboda, 0 )
-	setElementInterior(iglesiaboda,0)
-	setSoundVolume( iglesiaboda, 2 )
-	setSoundMaxDistance(iglesiaboda, 3000 )
-end
-)
 
 addEvent( getResourceName( resource ) .. ":ready", true )
 addEventHandler( getResourceName( resource ) .. ":ready", root,
@@ -649,7 +638,7 @@ addEventHandler( getResourceName( resource ) .. ":spawn", root,
 						setCameraInterior( source, char.interior )
 					end 
 					if char.nuevo == 1 then
-						spawnPlayer( source, 2427.90, 89.48, 26.45, 87.20, 0, 0, 0 )
+						spawnPlayer( source, 1742.4638671875, -1860.8388671875, 13.578247070312, 87.20, 0, 0, 0 )
 						fadeCamera( source, true )
 						setCameraTarget( source, source )
 						setCameraInterior( source, 0 )
