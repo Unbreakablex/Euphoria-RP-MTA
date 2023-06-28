@@ -1145,7 +1145,7 @@ function takeProductos(interiorID, cantidad)
 		local interior = interiors[ interiorID ]
 		if interior then
 			if exports.sql:query_free("UPDATE interiors SET productos = "..(interior.productos).." WHERE interiorID = "..interiorID) then
-				interior.productos = interior.productos - 10
+				interior.productos = interior.productos - 2
 				return true
 			else
 				return false
