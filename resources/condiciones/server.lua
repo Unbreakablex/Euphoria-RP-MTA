@@ -30,8 +30,8 @@ function todo(player)
 	local sql = exports.sql:query_assoc_single("SELECT nuevo FROM wcf1_user WHERE userID = " .. tonumber(exports.players:getUserID(player)))
 	if sql and sql.nuevo and sql.nuevo == 1 then
 			outputChatBox("Bienvenido por primera vez a Exotic - Juego de Rol.", player, 0, 255, 0)
-			outputChatBox("Has recibido $5000 dólares extra por entrar por primera vez.", player, 255, 255, 0)
-			exports.players:giveMoney(player, 5000)
+			outputChatBox("Has recibido $10000 dólares extra por entrar por primera vez.", player, 255, 255, 0)
+			exports.players:giveMoney(player, 10000)
 			exports.sql:query_free("UPDATE dinero_sesiones SET cantidadLogin = 5700 WHERE characterID = "..tostring(charID))
 			exports.sql:query_free("UPDATE wcf1_user SET nuevo = 0 WHERE userID = " .. tonumber(exports.players:getUserID(player)))
 	end
