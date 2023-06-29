@@ -1,5 +1,4 @@
 local vRadio = {}
-local ir = {}
 local stations = {
 	{ link = "http://kissfm.kissfmradio.cires21.com/kissfm.mp3", name = "Kiss FM" },
 	{ link = "http://playerservices.streamtheworld.com/api/livestream-redirect/M80RADIO_SC", name = "M80 Radio" },
@@ -38,7 +37,7 @@ addEvent( "onClientChangeVolumeIntRadio", true )
 
 addEventHandler( "onClientPlayVehicleRadio", root,
 	function ( vehicle, radioID )
-		if isElement( vehicle ) and radioID and vehicle:getType( ) == "vehicle" then
+		if isElement( vehicle ) and radioID and vehicle:getType( ) == "vehicle" and localPlayer.vehicle == vehicle then
 			local radioLink = stations[ radioID ].link
 			local radioName = stations[ radioID ].name
 			local vPos = vehicle:getPosition( )			
@@ -84,7 +83,7 @@ addEventHandler( "onClientPlayIntRadio", root,
 
 addEventHandler( "onClientChangeVehicleRadio", root,
 	function ( vehicle, radioID )
-		if isElement( vehicle ) and radioID and vehicle:getType( ) == "vehicle" then
+		if isElement( vehicle ) and radioID and vehicle:getType( ) == "vehicle" and localPlayer.vehicle == vehicle then
 			local radioLink = stations[ radioID ].link
 			local radioName = stations[ radioID ].name
 			local vPos = vehicle:getPosition( )			
@@ -106,7 +105,7 @@ addEventHandler( "onClientChangeVehicleRadio", root,
 
 addEventHandler( "onClientChangeVolumeVehicleRadio", root,
 	function ( vehicle, volume )
-		if isElement( vehicle ) and volume and vehicle:getType( ) == "vehicle" then
+		if isElement( vehicle ) and volume and vehicle:getType( ) == "vehicle" and localPlayer.vehicle == vehicle then
 			if isElement( vRadio[ vehicle ] ) then
 				if volume == "+" then
 					vRadio[ vehicle ]:setVolume( vRadio[ vehicle ]:getVolume( ) + 0.1 );				
@@ -133,7 +132,7 @@ addEventHandler( "onClientChangeVolumeIntRadio", root,
 	function ( player, volume )
 		if isElement( player ) and volume and player:getType( ) == "player" then
 			local dim = player:getDimension( )										
-			if isElement( vRadio[ dim ] ) then
+			if isElement( vRadio[ dim ] ) and dim == localPlayer.dimension then
 				if volume == "+" then
 					vRadio[ dim ]:setVolume( vRadio[ dim ]:getVolume( ) + 0.1 );				
 				elseif volume == "-" then
@@ -163,7 +162,7 @@ addEventHandler( "onClientChangeVolumeIntRadio", root,
 
 addEventHandler( "onClientPlayCustomVehicleRadio", root, 
 	function ( vehicle, link )
-		if isElement( vehicle ) and link and vehicle:getType( ) == "vehicle" then
+		if isElement( vehicle ) and link and vehicle:getType( ) == "vehicle" and localPlayer.vehicle == vehicle then
 			local radioLink = link
 			local vPos = vehicle:getPosition( )			
 			if radioLink then
@@ -186,7 +185,7 @@ addEventHandler( "onClientPlayCustomIntRadio", root,
 			local radioLink = link
 			local vPos = player:getPosition( )			
 			local dim = player:getDimension( )						
-			if radioLink then 
+			if radioLink and dim == localPlayer.dimension then 
 				if isElement( vRadio[ dim ] ) then
 					vRadio[ dim ]:destroy( )
 				end
