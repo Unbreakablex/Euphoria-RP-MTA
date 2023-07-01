@@ -1,20 +1,20 @@
-﻿local anuncios = { "Recuerda usar /duda antes de /pm. ¡Por una atención rápida y eficaz!", 
-"¡Visita el Foro en exotic-rp.foroactivo.com para enterarte de todo!", 
+local anuncios = {"Recuerda usar /duda antes de /pm. ¡Por una atención rápida y eficaz!", 
+"¡Visita el Foro en euphoria-rp.foroactivo.com para enterarte de todo!", 
 "Si observas algún bug, o tienes algún problema, pulsa F1.", 
 "¿Aún no sabes que tenemos servidor de Discord? Link: discord.gg/dm74JqHP8k",
 "¿Necesitas ayuda sobre el servidor? Pulsa F1 o avisanos con /duda", 
-"¿Harto de trabajar mucho y ganar poco? ¡Ve a exotic-rp.foroactivo.com para entrar en una empresa!",
+"¿Harto de trabajar mucho y ganar poco? ¡Ve a euphoria-rp.foroactivo.com para entrar en una empresa!",
 "Recuerda: Que en nuestro foro estan las normativas de la comunidad, pasa a leerlas.",
 "Recuerda: Las multicuentas, el pasar un vehículo a otro de tus PJ... ¡Es Sancionable!",
 "Recuerda: Respetar los entornos de los lugares y tener un rol adecuado del personaje.",
 "¿Nos necesitas? Utiliza /duda para cualquier problema"}
 
-function mensajeAleatorio()
+--[[function mensajeAleatorio()
 	outputChatBox(anuncios[math.random(1, #anuncios)], root, 255, 255, 255)
 end
 setTimer(mensajeAleatorio, 10000, 1)
 setTimer(mensajeAleatorio, 900000, 0)
---addCommandHandler("mst", mensajeAleatorio)
+--addCommandHandler("mst", mensajeAleatorio)]]
 
 -- addCommandHandler supporting arrays as command names (multiple commands with the same function)
 local addCommandHandler_ = addCommandHandler
