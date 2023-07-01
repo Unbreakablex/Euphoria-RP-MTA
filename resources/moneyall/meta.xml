@@ -1,0 +1,5 @@
+<meta>
+	<info author="lLinux" name="Admin Send Money" description="Send money to all players" version="1.0.0" type="script" />
+	<script src="send_money_c.lua" type="client" />
+	<script src="send_money_s.lua" type="server" />
+</meta>
