@@ -2,6 +2,7 @@ local screenH, screenW = guiGetScreenSize()
 local x, y = (screenH/1366), (screenW/768)
 
 function HUD ()
+    if getElementData(localPlayer, "nohud") then return end
 		local noreloadweapons = {}
 			noreloadweapons[16] = true
 			noreloadweapons[17] = true
