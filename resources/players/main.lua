@@ -30,8 +30,8 @@ p = { }
 local groups = {
 	{ groupName = "Developers", groupID = 1, aclGroup = "Desarrollador", displayName = "Desarrollador", nametagColor = { 167, 8, 8 }, priority = 1 },
 	{ groupName = "MTA Administrators", groupID = 2, aclGroup = "Administrador", displayName = "Administrador", nametagColor = { 40, 31, 189 }, priority = 2 },
-	{ groupName = "MTA Moderators", groupID = 17, aclGroup = "Moderador", displayName = "Moderador", nametagColor = { 247, 157, 47 }, priority = 4 },
-	{ groupName = "GameOperator", groupID = 3, aclGroup = "GameOperator", displayName = "GameOperator", nametagColor = { 88, 88, 88 }, priority = 3 },
+    { groupName = "GameOperator", groupID = 3, aclGroup = "GameOperator", displayName = "GameOperator", nametagColor = { 88, 88, 88 }, priority = 3 },
+	{ groupName = "MTA Moderators", groupID = 17, aclGroup = "Moderador", displayName = "Moderador", nametagColor = { 56, 95, 41 }, priority = 4 },
 	{ groupName = "Helper", groupID = 12, aclGroup = "Helper", displayName = "Helper", nametagColor = { 16, 152, 248 }, priority = 4 },
 	{ groupName = "VIP", groupID = 14, aclGroup = "VIP", displayName = "VIP", nametagColor = { 255, 255, 255 }, priority = 5 },
 }
