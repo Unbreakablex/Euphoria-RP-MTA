@@ -16,14 +16,14 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
 ]]
 
 function getVersion( )
-	return "2.5"
+	return "2.3.8"
 end
 
 addEventHandler( "onResourceStart", resourceRoot,
 	function( )
-		setGameType( "Juego de Rol" )
+		setGameType( "Roleplay Español" )
 		setRuleValue( "version", getVersion( ) )
-		setMapName( "DTRP / EX-RP" )
+		setMapName( "Los Santos" )
 		
 		setTimer( 
 			function( )
